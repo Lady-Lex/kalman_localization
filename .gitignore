@@ -1,0 +1,44 @@
+maps/
+bags/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+*.env
+
+# ROS log files (in case used)
+*.log
+*.bag
+*.db3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test cache
+.pytest_cache/
+.cache/
+
+# Config & runtime
+*.yaml~
+*.tmp
