@@ -1,3 +1,10 @@
+<!-- 支持 LaTeX 数学公式的 MathJax 配置 -->
+<script type="text/javascript"
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # Extended Kalman Filter (EKF) — Full Mathematical Description
 
 ## 1. True State (Ground Truth)
