@@ -1,0 +1,35 @@
+# EKF state configuration
+state:
+  dim: 3  # State dimension: [x, y, theta]
+  initial_state:
+    x: 0.0
+    y: 0.0
+    theta: 0.0
+
+  initial_covariance:
+    x: 0.05
+    y: 0.05
+    theta: 0.01
+
+# Control input configuration
+control:
+  enabled: true
+  dim: 2  # Control input: [v, omega]
+  use_cmd_vel: true
+
+# Process noise covariance (motion model uncertainty)
+process_noise:
+  q_x: 0.05
+  q_y: 0.05
+  q_theta: 0.01
+
+# Measurement noise covariance (sensor observation noise)
+measurement_noise:
+  r_x: 0.2
+  r_y: 0.2
+  r_theta: 0.1
+
+# Time step for prediction (default, can be overridden by real-time update)
+delta_t: 0.1
+
+use_dynamic_process_noise: true
