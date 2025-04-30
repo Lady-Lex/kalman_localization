@@ -79,7 +79,7 @@ python3 scripts/metrics.py --file results/ekf_log_<timestamp>.csv
 It outputs metrics for:
 
 - $x$, $y$ — position
-- $	heta$ — heading angle
+- $\theta$ — heading angle
 
 Example:
 
